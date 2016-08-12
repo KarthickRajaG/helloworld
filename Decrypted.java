@@ -17,7 +17,7 @@ public class Decrypted {
 	    
 	    for(int i=0;i<str1.length;i++)
 	    {
-	    String str3=st3.substring(1,3);
+	    String str3=st2.substring(1,3);
 	    if(str3.equals(str1[i]))
 	    {
 	    	System.out.println("-");
@@ -25,12 +25,12 @@ public class Decrypted {
 	    }
 	    for(int i=0;i<str1.length;i++)
 	    {
-	    String str4=st4.substring(st4.length()-2);
+	    String str4=st3.substring(st3.length()-2);
 	    if(str4.equals(str1[i]))
 	    	{
 	    	System.out.println("*");
 	    	}}
-	    	String str2=st2.substring(st2.length()-2);
+	    	String str2=st4.substring(st4.length()-2);
 	    if(str2.equals(st1))
 	    	{
 	    	System.out.println("?");
